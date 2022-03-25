@@ -1,0 +1,20 @@
+{
+	"name": "kong-gcp-upstream",
+	"version": "0.1.0",
+	"description": "Kong JS Plugin for generating JWT for GCP service user",
+	"scripts": {
+		"format": "npx prettier --write ."
+	},
+	"author": "Martin Voros",
+	"license": "Apache-2.0",
+	"licenses": [
+		{
+			"type": "Apache-2.0",
+			"url": "http://www.apache.org/licenses/LICENSE-2.0"
+		}
+	],
+	"dependencies": {
+		"google-auth-library": "^7.12.0",
+		"prettier": "^2.5.1"
+	}
+}
